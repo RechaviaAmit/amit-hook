@@ -11,7 +11,7 @@ def main(argv=None):
     for filename in args.filenames:
         with open(filename, 'r') as f:
             contents = f.read()
-        if "hi" in contents:
+        if "thank you" in contents:
             print("stop being so polite!")
             sys.exit(1)
         with open(filename, 'w') as f:
