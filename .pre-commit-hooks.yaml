@@ -1,0 +1,5 @@
+- id: magic
+  name: magic
+  description: magical pre commit by amit
+  entry: magic
+  language: python
